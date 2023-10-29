@@ -1,0 +1,99 @@
+
+#########################################################################################
+[LABORATION] Binary search
+##
+## Important note: This is a machine-readable config file that will be read using 
+## the Python 'configparser' library: https://docs.python.org/3/library/configparser.html
+##
+## Please follow these rules when editing this file:
+##  1. Only write your answer where there is a [...] stub.
+##  2. Multiline answers must be indented.
+##  3. Don't change anything else.
+#########################################################################################
+
+# Which programming language did you implement in? 
+# (Write only Java or Python)
+
+Language: [Java]
+
+
+# Who are you?
+
+Student: [Reza Amani]
+
+
+#########################################################################################
+[PART 3] Test your implementation
+#########################################################################################
+
+# How many comparisons does 'firstIndexOf' use *at most* for an array of...
+
+# ... 10 elements?
+Q3a: [4]
+
+# ... 100 elements?
+Q3b: [7]
+
+# ... 1,000 elements?
+Q3c: [10]
+
+# ... 1,000,000 elements?
+Q3d: [20]
+
+
+#########################################################################################
+[PART 4] Reason about your implementation
+#########################################################################################
+
+# How many comparisons would 'firstIndexOf' need for 1,000,000,000,000 elements?
+# (This is way too big for your computer's memory!)
+# Justify your answer.
+
+Q4a:
+    [It would take approximately 40 or fewer comparisons. Because the number is huge and maybe my computer ran out of memory in order to calculate that then I did calculate log2(1000000000)=40.
+    Another method I did thought about is that for 1000 elements it needs 10 or fewer comparisons and for 1000000 it takes 20 or fewer comparison and 1000 * 1000 is 1000000 and the number of comparisons doubles, so I thought maybe 1000000 * 1000000 doubles the number of comparisons.]
+
+
+#########################################################################################
+[APPENDIX] General information
+#########################################################################################
+
+# Approximately how many hours did you spend on the assignment?
+
+Hours: [3]
+
+
+# Are there any known bugs or limitations?
+
+Bugs:
+    [No]
+
+Limitations:
+    [No]
+
+
+# Did you collaborate with any other students on this lab?
+# 
+#   If so, please write in what way you collaborated and with whom.
+#   Also include any resources (including the web) that you may
+#   have used in creating your design.
+
+Collaborations: 
+    [No]
+
+
+# Describe any serious problems you encountered.
+
+Problems: 
+    [When I was trying to return the boolean value of the Iterative Binary search and Recursion Binary search I needed to comment out the "throw new UnsupportedOperationException" otherwise it would give me a "Wrong/ warning" message.]
+
+
+# List any other comments here.
+#
+#   Feel free to provide any feedback on how much you learned
+#   from doing the assignment, and whether you enjoyed it.
+
+Comments: 
+    [This is the first time I learned about Binary search, and it showed me that there are faster ways to search for a value instead of just searching each one of the elements in an array.]
+
+
